@@ -126,30 +126,6 @@ textarea {
   vertical-align: top;
 }
 
-@font-face {
-  font-family: 'MINITypev2HeadlineRegular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2headline-regular-webfont.eot');
-  src: url('fonts/minitypev2headline-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2headline-regular-webfont.woff') format('woff'), url('fonts/minitypev2headline-regular-webfont.ttf') format('truetype'), url('fonts/minitypev2headline-regular-webfont.svg#MINITypev2HeadlineRegular') format('svg');
-}
-
-@font-face {
-  font-family: 'MINITypev2RegularBold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2regular-bold-webfont.eot');
-  src: url('fonts/minitypev2regular-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2regular-bold-webfont.woff') format('woff'), url('fonts/minitypev2regular-bold-webfont.ttf') format('truetype'), url('fonts/minitypev2regular-bold-webfont.svg#MINITypev2RegularBold') format('svg');
-}
-
-@font-face {
-  font-family: 'MINITypev2RegularRegular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2regular-regular-webfont.eot');
-  src: url('fonts/minitypev2regular-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2regular-regular-webfont.woff') format('woff'), url('fonts/minitypev2regular-regular-webfont.ttf') format('truetype'), url('fonts/minitypev2regular-regular-webfont.svg#MINITypev2RegularRegular') format('svg');
-}
-
 .clearfix {
   *zoom: 1;
 }
@@ -678,8 +654,8 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'MINITypev2RegularBold';
-  font-weight: normal;
+  font-family: inherit;
+  font-weight: bold;
   line-height: 20px;
   color: #ffffff;
   text-rendering: optimizelegibility;
@@ -2027,7 +2003,6 @@ table {
 
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
-  color: #000000;
   background-color: #f9f9f9;
 }
 
@@ -2130,22 +2105,18 @@ table th[class*="span"],
 }
 
 .table tbody tr.success td {
-  color: #000000;
   background-color: #dff0d8;
 }
 
 .table tbody tr.error td {
-  color: #000000;
   background-color: #f2dede;
 }
 
 .table tbody tr.warning td {
-  color: #000000;
   background-color: #fcf8e3;
 }
 
 .table tbody tr.info td {
-  color: #000000;
   background-color: #d9edf7;
 }
 
@@ -3063,33 +3034,36 @@ button.close {
 .btn {
   display: inline-block;
   *display: inline;
-  padding: 2px 12px;
+  padding: 4px 12px;
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 14px;
-  font-weight: bold;
   line-height: 20px;
   *line-height: 20px;
-  color: #000000;
+  color: #333333;
   text-align: center;
-  text-shadow: 0 0 0px rgba(255, 255, 255, 0.75);
-  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
-  background-color: #a9a9a9;
-  *background-color: #a9a9a9;
-  background-image: -moz-linear-gradient(top, #a9a9a9, #a9a9a9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a9a9a9), to(#a9a9a9));
-  background-image: -webkit-linear-gradient(top, #a9a9a9, #a9a9a9);
-  background-image: -o-linear-gradient(top, #a9a9a9, #a9a9a9);
-  background-image: linear-gradient(to bottom, #a9a9a9, #a9a9a9);
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
-  border: 0;
-  border-color: #a9a9a9 #a9a9a9 #838383;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa9a9a9', endColorstr='#ffa9a9a9', GradientType=0);
+  border-bottom-color: #a2a2a2;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .btn:hover,
@@ -3097,14 +3071,14 @@ button.close {
 .btn.active,
 .btn.disabled,
 .btn[disabled] {
-  color: #000000;
-  background-color: #a9a9a9;
-  *background-color: #9c9c9c;
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
 }
 
 .btn:active,
 .btn.active {
-  background-color: #909090 \9;
+  background-color: #cccccc \9;
 }
 
 .btn:first-child {
@@ -3112,11 +3086,17 @@ button.close {
 }
 
 .btn:hover {
-  color: #000000;
+  color: #333333;
   text-decoration: none;
-  background-color: #000000;
-  /**background-color: darken(@white, 15%); [> Buttons in IE7 don't get borders, so darken on hover <]*/
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
 
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
 }
 
 .btn:focus {
@@ -3127,16 +3107,13 @@ button.close {
 
 .btn.active,
 .btn:active {
-  /*background-color: darken(@white, 10%);*/
-
-  /*background-color: darken(@white, 15%) e("\9");*/
-
-  /*backguround-image: none;*/
-
-  /*outline: 0;*/
-
-  /*.box-shadow(~"inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05)");*/
-
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .btn.disabled,
@@ -3187,7 +3164,7 @@ button.close {
 }
 
 .btn-block + .btn-block {
-  margin-uutop: 5px;
+  margin-top: 5px;
 }
 
 input[type="submit"].btn-block,
@@ -3206,8 +3183,8 @@ input[type="button"].btn-block {
 }
 
 .btn {
-  /*border-color: rgba(0,0,0,.15) rgba(0,0,0,.15) rgba(0,0,0,.25);*/
-
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
 
 .btn-primary {
@@ -3695,8 +3672,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .alert h4 {
-  margin: 0 0 4px 0;
-  color: inherit;
+  margin: 0;
 }
 
 .alert .close {
@@ -4140,8 +4116,8 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-family: 'MINITypev2RegularRegular';
   font-size: 20px;
+  font-weight: 200;
   color: #ffffff;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -4331,7 +4307,7 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 0 20px;
   margin: 0 5px;
-  font-family: 'MINITypev2RegularBold';
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;

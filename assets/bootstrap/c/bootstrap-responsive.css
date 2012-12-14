@@ -8,30 +8,6 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
-@font-face {
-  font-family: 'MINITypev2HeadlineRegular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2headline-regular-webfont.eot');
-  src: url('fonts/minitypev2headline-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2headline-regular-webfont.woff') format('woff'), url('fonts/minitypev2headline-regular-webfont.ttf') format('truetype'), url('fonts/minitypev2headline-regular-webfont.svg#MINITypev2HeadlineRegular') format('svg');
-}
-
-@font-face {
-  font-family: 'MINITypev2RegularBold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2regular-bold-webfont.eot');
-  src: url('fonts/minitypev2regular-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2regular-bold-webfont.woff') format('woff'), url('fonts/minitypev2regular-bold-webfont.ttf') format('truetype'), url('fonts/minitypev2regular-bold-webfont.svg#MINITypev2RegularBold') format('svg');
-}
-
-@font-face {
-  font-family: 'MINITypev2RegularRegular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/minitypev2regular-regular-webfont.eot');
-  src: url('fonts/minitypev2regular-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/minitypev2regular-regular-webfont.woff') format('woff'), url('fonts/minitypev2regular-regular-webfont.ttf') format('truetype'), url('fonts/minitypev2regular-regular-webfont.svg#MINITypev2RegularRegular') format('svg');
-}
-
 .clearfix {
   *zoom: 1;
 }
