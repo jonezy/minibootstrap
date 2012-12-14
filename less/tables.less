@@ -149,6 +149,7 @@ table {
   tbody {
     tr:nth-child(odd) td,
     tr:nth-child(odd) th {
+      color:@black;
       background-color: @tableBackgroundAccent;
     }
   }
@@ -206,15 +207,19 @@ table th[class*="span"],
 
 .table tbody tr {
   &.success td {
+    color: @black;
     background-color: @successBackground;
   }
   &.error td {
+    color: @black;
     background-color: @errorBackground;
   }
   &.warning td {
+    color: @black;
     background-color: @warningBackground;
   }
   &.info td {
+    color: @black;
     background-color: @infoBackground;
   }
 }

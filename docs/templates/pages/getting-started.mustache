@@ -1,14 +1,13 @@
 <!-- Subhead
 ================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>{{_i}}Getting started{{/i}}</h1>
-    <p class="lead">{{_i}}Overview of the project, its contents, and how to get started with a simple template.{{/i}}</p>
-  </div>
-</header>
+<div class="container">
+  <header class="hero-unit" id="overview">
+      <h1>{{_i}}Getting started{{/i}}</h1>
+      <p class="lead">{{_i}}Overview of the project, its contents, and how to get started with a simple template.{{/i}}</p>
+  </header>
 
 
-  <div class="container">
+  
 
     <!-- Docs nav
     ================================================== -->
@@ -62,14 +61,15 @@
 <pre class="prettyprint">
   bootstrap/
   ├── css/
-  │   ├── bootstrap.css
   │   ├── bootstrap.min.css
+  │   ├── application.css
   ├── js/
-  │   ├── bootstrap.js
   │   ├── bootstrap.min.js
+  │   ├── application.js
   └── img/
-      ├── glyphicons-halflings.png
-      └── glyphicons-halflings-white.png
+  │   ├── glyphicons-halflings.png
+  │   └── glyphicons-halflings-white.png
+  └── index.html
 </pre>
           <p>{{_i}}This is the most basic form of Bootstrap: compiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>). The image files are compressed using <a href="http://imageoptim.com/">ImageOptim</a>, a Mac app for compressing PNGs.{{/i}}</p>
           <p>{{_i}}Please note that all JavaScript plugins require jQuery to be included.{{/i}}</p>
@@ -149,11 +149,13 @@
     &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
     &lt;!-- Bootstrap --&gt;
     &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
+    &lt;link href="css/application.css" rel="stylesheet" media="screen"&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;h1&gt;Hello, world!&lt;/h1&gt;
     &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
     &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/application.js"&gt;&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -235,7 +237,6 @@
           </div>
           <p class="lead">{{_i}}Head to the docs for information, examples, and code snippets, or take the next leap and customize Bootstrap for any upcoming project.{{/i}}</p>
           <a class="btn btn-large btn-primary" href="./scaffolding.html" {{#production}}onclick="_gaq.push(['_trackEvent', 'Getting started', 'Next steps', 'Visit docs']);"{{/production}}>{{_i}}Visit the Bootstrap docs{{/i}}</a>
-          <a class="btn btn-large" href="./customize.html" style="margin-left: 5px;" {{#production}}onclick="_gaq.push(['_trackEvent', 'Getting started', 'Next steps', 'Customize']);"{{/production}}>{{_i}}Customize Bootstrap{{/i}}</a>
         </section>
 
 
