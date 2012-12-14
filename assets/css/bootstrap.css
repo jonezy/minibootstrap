@@ -678,7 +678,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'MINITypev2RegularBold';
+  font-family: 'MINITypev2HeadlineRegular';
   font-weight: normal;
   line-height: 20px;
   color: #ffffff;
@@ -5764,7 +5764,6 @@ a.badge:hover {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  letter-spacing: -1px;
   color: inherit;
 }
 
