@@ -65,6 +65,7 @@ clean:
 bootstrap:
 	mkdir -p bootstrap/img
 	mkdir -p bootstrap/c
+	mkdir -p bootstrap/c/fonts
 	mkdir -p bootstrap/j
 	cp img/* bootstrap/img/
 	cp fonts/* bootstrap/c/fonts/
