@@ -67,6 +67,7 @@ bootstrap:
 	mkdir -p bootstrap/c
 	mkdir -p bootstrap/j
 	cp img/* bootstrap/img/
+	cp fonts/* bootstrap/c/fonts/
 	cp index.html bootstrap/
 	recess --compile ${BOOTSTRAP_LESS} > bootstrap/c/bootstrap.css
 	recess --compress ${BOOTSTRAP_LESS} > bootstrap/c/bootstrap.min.css
