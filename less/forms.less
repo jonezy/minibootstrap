@@ -25,7 +25,7 @@ legend {
   margin-bottom: @baseLineHeight;
   font-size: @baseFontSize * 1.5;
   line-height: @baseLineHeight * 2;
-  color: @grayDark;
+  color: @grayLight;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 
@@ -80,7 +80,7 @@ input[type="color"],
 .uneditable-input {
   display: inline-block;
   height: @baseLineHeight;
-  padding: 4px 6px;
+  padding: 1px 6px;
   margin-bottom: @baseLineHeight / 2;
   font-size: @baseFontSize;
   line-height: @baseLineHeight;
@@ -551,16 +551,12 @@ input.search-query {
   .border-radius(0); // Override due to specificity
 }
 .form-search .input-append .search-query {
-  .border-radius(14px 0 0 14px);
 }
 .form-search .input-append .btn {
-  .border-radius(0 14px 14px 0);
 }
 .form-search .input-prepend .search-query {
-  .border-radius(0 14px 14px 0);
 }
 .form-search .input-prepend .btn {
-  .border-radius(14px 0 0 14px);
 }
 
 
@@ -642,7 +638,7 @@ legend + .control-group {
 .form-horizontal {
   // Increase spacing between groups
   .control-group {
-    margin-bottom: @baseLineHeight;
+    margin-bottom: @baseLineHeight / 2;
     .clearfix();
   }
   // Float the labels left
