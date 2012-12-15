@@ -959,7 +959,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 40px;
-  color: #333333;
+  color: #999999;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -1010,7 +1010,7 @@ input[type="color"],
 .uneditable-input {
   display: inline-block;
   height: 20px;
-  padding: 4px 6px;
+  padding: 1px 6px;
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 20px;
@@ -1753,30 +1753,6 @@ input.search-query {
           border-radius: 0;
 }
 
-.form-search .input-append .search-query {
-  -webkit-border-radius: 14px 0 0 14px;
-     -moz-border-radius: 14px 0 0 14px;
-          border-radius: 14px 0 0 14px;
-}
-
-.form-search .input-append .btn {
-  -webkit-border-radius: 0 14px 14px 0;
-     -moz-border-radius: 0 14px 14px 0;
-          border-radius: 0 14px 14px 0;
-}
-
-.form-search .input-prepend .search-query {
-  -webkit-border-radius: 0 14px 14px 0;
-     -moz-border-radius: 0 14px 14px 0;
-          border-radius: 0 14px 14px 0;
-}
-
-.form-search .input-prepend .btn {
-  -webkit-border-radius: 14px 0 0 14px;
-     -moz-border-radius: 14px 0 0 14px;
-          border-radius: 14px 0 0 14px;
-}
-
 .form-search input,
 .form-inline input,
 .form-horizontal input,
@@ -1853,7 +1829,7 @@ legend + .control-group {
 }
 
 .form-horizontal .control-group {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   *zoom: 1;
 }
 
@@ -4238,9 +4214,6 @@ input[type="submit"].btn.btn-mini {
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
-  -webkit-border-radius: 15px;
-     -moz-border-radius: 15px;
-          border-radius: 15px;
 }
 
 .navbar-static-top {
