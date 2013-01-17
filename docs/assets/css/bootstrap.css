@@ -4670,8 +4670,7 @@ input[type="submit"].btn.btn-mini {
   padding: 4px 12px;
   line-height: 20px;
   text-decoration: none;
-  /*background-color: @paginationBackground;*/
-
+  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-left-width: 0;
 }
@@ -5053,7 +5052,7 @@ input[type="submit"].btn.btn-mini {
   display: none;
   width: 236px;
   padding: 1px;
-  background-color: #000000;
+  background-color: #333333;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 6px;
@@ -5089,8 +5088,8 @@ input[type="submit"].btn.btn-mini {
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  background-color: #000000;
-  border-bottom: 1px solid #000000;
+  background-color: #666666;
+  border-bottom: 1px solid #595959;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
@@ -5125,7 +5124,7 @@ input[type="submit"].btn.btn-mini {
   bottom: -10px;
   left: 50%;
   margin-left: -10px;
-  border-top-color: #000000;
+  border-top-color: #333333;
   border-width: 10px 10px 0;
 }
 
@@ -5140,7 +5139,7 @@ input[type="submit"].btn.btn-mini {
   top: 50%;
   left: -10px;
   margin-top: -10px;
-  border-right-color: #000000;
+  border-right-color: #333333;
   border-width: 10px 10px 10px 0;
 }
 
@@ -5155,7 +5154,7 @@ input[type="submit"].btn.btn-mini {
   top: -10px;
   left: 50%;
   margin-left: -10px;
-  border-bottom-color: #000000;
+  border-bottom-color: #333333;
   border-width: 0 10px 10px;
 }
 
@@ -5170,7 +5169,7 @@ input[type="submit"].btn.btn-mini {
   top: 50%;
   right: -10px;
   margin-top: -10px;
-  border-left-color: #000000;
+  border-left-color: #333333;
   border-width: 10px 0 10px 10px;
 }
 
