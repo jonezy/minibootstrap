@@ -91,9 +91,9 @@ gh-pages: bootstrap docs
 	rm -f docs/assets/bootstrap.zip
 	zip -r docs/assets/bootstrap.zip bootstrap
 	rm -r bootstrap
-	rm -f ../MINIbootstrap-ghpages/assets/bootstrap.zip
+	rm -f ../minibootstrap-ghpages/assets/bootstrap.zip
 	node docs/build production
-	cp -r docs/* ../MINIbootstrap-ghpages
+	cp -r docs/* ../minibootstrap-ghpages
 
 #
 # WATCH LESS FILES

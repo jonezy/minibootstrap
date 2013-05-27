@@ -4298,7 +4298,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 5px 10px 0 10px;
+  padding: 5px 10px 5px 10px;
   margin: 0 5px;
   font-family: 'MINITypev2HeadlineRegular';
   color: #ffffff;
