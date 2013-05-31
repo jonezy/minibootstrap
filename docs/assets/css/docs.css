@@ -30,6 +30,7 @@ h3 code {
 body > .navbar .brand {
   padding-right: 0;
   padding-left: 0;
+  margin-top: 5px;
   margin-left: 20px;
   float: right;
   font-weight: bold;
@@ -316,7 +317,7 @@ hr.soften {
   margin-bottom: 20px;
 }
 .show-grid [class*="span"] {
-  background-color: #aaa;
+  background-color: #ddd;
   text-align: center;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -325,7 +326,7 @@ hr.soften {
   line-height: 40px;
 }
 .show-grid:hover [class*="span"] {
-  background: #ddd;
+  background: #fff;
 }
 .show-grid .show-grid {
   margin-top: 0;
@@ -806,7 +807,7 @@ form.bs-docs-example {
     max-width: 970px;
   }
   .bs-docs-sidenav {
-    width: 330px;
+    width: 260px;
   }
   .bs-docs-sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
@@ -819,6 +820,7 @@ form.bs-docs-example {
   /* Unfloat brand */
   body > .navbar-fixed-top .brand {
     float: left;
+    margin-top: 0;
     margin-left: 0;
     padding-left: 10px;
     padding-right: 10px;
