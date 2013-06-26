@@ -82,6 +82,7 @@ bootstrap:
 	rm bootstrap/j/copyright.js bootstrap/j/bootstrap.min.tmp.js
 	rm bootstrap/j/bootstrap.js
 	touch bootstrap/j/application.js
+	cp -r bootstrap/* docs/assets/bootstrap
 
 #
 # MAKE FOR GH-PAGES 4 FAT & MDO ONLY (O_O  )
@@ -90,8 +91,8 @@ bootstrap:
 gh-pages: bootstrap docs
 	rm -f docs/assets/bootstrap.zip
 	zip -r docs/assets/bootstrap.zip bootstrap
-	rm -r bootstrap
-	rm -f ../minibootstrap-ghpages/assets/bootstrap.zip
+	#rm -r bootstrap
+	#rm -f ../minibootstrap-ghpages/assets/bootstrap.zip
 	node docs/build production
 	cp -r docs/* ../minibootstrap-ghpages
 
